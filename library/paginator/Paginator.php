@@ -22,10 +22,7 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  * THE SOFTWARE.
  *
- * @id $Id: Paginator.php 110 2011-03-21 15:39:12Z kallaspriit $
- * @author $Author: kallaspriit $
- * @version $Revision: 110 $
- * @modified $Date: 2011-03-21 17:39:12 +0200 (Mon, 21 Mar 2011) $
+ * @author Priit Kallas <kallaspriit@gmail.com>
  * @package Lightspeed
  * @subpackage Paginator
  */
@@ -33,10 +30,7 @@
 /**
  * Paginator can be used to paginate a set of data.
  *
- * @id $Id: Paginator.php 110 2011-03-21 15:39:12Z kallaspriit $
- * @author $Author: kallaspriit $
- * @version $Revision: 110 $
- * @modified $Date: 2011-03-21 17:39:12 +0200 (Mon, 21 Mar 2011) $
+ * @author Priit Kallas <kallaspriit@gmail.com>
  * @package Lightspeed
  * @subpackage Paginator
  */
