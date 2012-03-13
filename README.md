@@ -113,4 +113,8 @@ Lastly, the pager needs some CSS to make it look pretty. You can base your own r
 }
 ```
 
+How to use it
+-------------
+An example of how to use the pager in your project is covered [on this tutorial page](http://lightspeed-php.com/tutorial/pagination).
+
 Up-to-date version of this tutorial is available on the [addons page](http://lightspeed-php.com/add-ons/paginator).
