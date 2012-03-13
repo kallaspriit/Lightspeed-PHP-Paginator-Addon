@@ -12,15 +12,15 @@ Download the archive and unpack it to the root directory of your project. Create
 
 Just make sure your **application/Autoload.php** contains a rule to autoload the Paginator class when needed.
 
-'''
+```
 else if ($className == 'Paginator') {
 	require_once LIBRARY_PATH.'/paginator/Paginator.php';
 }
-'''
+```
 
 You need to add translations for it, add the following to the end of your **application/translations/main-translations.php** file:
 
-'''
+```
 // Pager
 'pager.label.page' => array(
 	LANGUAGE_ENGLISH => 'Page',
@@ -52,11 +52,11 @@ You need to add translations for it, add the following to the end of your **appl
 'pager.label.all' => array(
 	LANGUAGE_ENGLISH => 'all',
 ),
-'''
+```
 
 Lastly, the pager needs some CSS to make it look pretty. You can base your own rules on the following:
 
-'''
+```
 .pager {
 	margin-top: 20px;
 }
@@ -110,6 +110,6 @@ Lastly, the pager needs some CSS to make it look pretty. You can base your own r
 	-moz-border-radius: 0 4px 4px 0;
 	-webkit-border-radius: 0 4px 4px 0;
 }
-'''
+```
 
 Up-to-date version of this tutorial is available on the [addons page](http://lightspeed-php.com/add-ons/paginator).
