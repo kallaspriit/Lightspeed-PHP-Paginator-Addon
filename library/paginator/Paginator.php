@@ -90,14 +90,19 @@ class Paginator implements IteratorAggregate, Countable {
 	 *
 	 * @param mixed $data Data to paginate
 	 * @param integer $page Current page number
+	 * @param integer $itemsPerPage How many items to show on a page
 	 */
-	public function __construct($data = null, $page = 1) {
-		if ($data !== null) {
+	public function __construct($data = null, $page = null, $itemsPerPage = null) {
+		if (isset($data)) {
 			$this->setData($data);
 		}
 
-		if ($page !== 1) {
+		if (isset($page)) {
 			$this->setPage($page);
+		}
+
+		if (isset($itemsPerPage)) {
+			$this->setItemsPerPage($itemsPerPage);
 		}
 	}
 
