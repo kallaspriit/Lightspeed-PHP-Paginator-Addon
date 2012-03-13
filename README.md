@@ -70,6 +70,7 @@ Lastly, the pager needs some CSS to make it look pretty. You can base your own r
 	margin: 0;
 	padding: 0;
 	list-style: none;
+	height: 26px;
 }
 .pager LI {
 	float: left;
